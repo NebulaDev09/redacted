@@ -7,6 +7,8 @@ var pairs = 3
 var first_card = null
 var second_card = null
 
+signal complete(card)
+
 func _ready():
 		setup_cards()
 		
@@ -54,4 +56,4 @@ func check_match():
 			
 func _process(delta: float) -> void:
 	if matched == pairs:
-		pass 
+		emit_signal("complete", self)

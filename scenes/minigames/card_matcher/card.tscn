@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://e8n74dpr6ero" path="res://scripts/card.gd" id="1_b1wue"]
 [ext_resource type="Texture2D" uid="uid://8nhx1rqkkrur" path="res://assets/card_matcher/card_back.png" id="1_i0twx"]
 
-[node name="Card" type="Control"]
+[node name="card" type="Control"]
 custom_minimum_size = Vector2(409.6, 409.6)
 layout_mode = 3
 anchors_preset = 0

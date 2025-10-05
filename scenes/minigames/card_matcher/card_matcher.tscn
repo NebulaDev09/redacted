@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://dbijsgevddhq3"]
 
-[ext_resource type="Script" uid="uid://dtb3fmku6ieaf" path="res://scenes/minigames/card_matcher/card_matcher.gd" id="1_s4edv"]
+[ext_resource type="Script" uid="uid://dtb3fmku6ieaf" path="res://card_matcher.gd" id="1_s4edv"]
 [ext_resource type="Texture2D" uid="uid://cb1q7tomq7adn" path="res://assets/card_matcher/card_pc_bg.png" id="2_i6dc2"]
 
 [node name="CardMatcher" type="Control"]
