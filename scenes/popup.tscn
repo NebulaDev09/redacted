@@ -1,0 +1,42 @@
+[gd_scene load_steps=4 format=3 uid="uid://cl05poia3xdgi"]
+
+[ext_resource type="Script" uid="uid://7jflmdiplblp" path="res://control.gd" id="1_gxv0h"]
+[ext_resource type="Texture2D" uid="uid://cymogdas5k618" path="res://assets/popup_window.png" id="2_ofmyw"]
+[ext_resource type="FontFile" uid="uid://oia3rwu8wi0l" path="res://assets/SweetNovember-n6O1.ttf" id="3_ap2cg"]
+
+[node name="Control" type="Control"]
+clip_contents = true
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_gxv0h")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 536.0
+offset_top = 136.0
+offset_right = 1276.0
+offset_bottom = 776.0
+texture = ExtResource("2_ofmyw")
+
+[node name="close" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1176.0
+offset_top = 240.0
+offset_right = 1216.0
+offset_bottom = 272.0
+flat = true
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 872.0
+offset_top = 304.0
+offset_right = 1216.0
+offset_bottom = 368.0
+theme_override_colors/default_color = Color(0.999936, 0.525959, 0.460479, 1)
+theme_override_fonts/normal_font = ExtResource("3_ap2cg")
+theme_override_font_sizes/normal_font_size = 50
