@@ -1,0 +1,55 @@
+[gd_scene load_steps=2 format=3 uid="uid://kbhylx26bc63"]
+
+[ext_resource type="Texture2D" uid="uid://dyk5jvkit68u3" path="res://assets/starting.png" id="1_jjbkj"]
+
+[node name="crossWord" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_top = -8.0
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("1_jjbkj")
+expand_mode = 1
+
+[node name="Button" type="Button" parent="TextureRect"]
+layout_mode = 0
+offset_left = 1520.0
+offset_top = 192.0
+offset_right = 1784.0
+offset_bottom = 344.0
+theme_override_font_sizes/font_size = 50
+text = "NEW"
+
+[node name="Button3" type="Button" parent="TextureRect"]
+layout_mode = 0
+offset_left = 1520.0
+offset_top = 416.0
+offset_right = 1784.0
+offset_bottom = 600.0
+theme_override_font_sizes/font_size = 50
+text = "LOAD"
+
+[node name="Button4" type="Button" parent="TextureRect"]
+layout_mode = 0
+offset_left = 1520.0
+offset_top = 664.0
+offset_right = 1784.0
+offset_bottom = 824.0
+theme_override_font_sizes/font_size = 50
+text = "PREFS"
+
+[node name="Button5" type="Button" parent="TextureRect"]
+layout_mode = 0
+offset_left = 1520.0
+offset_top = 888.0
+offset_right = 1800.0
+offset_bottom = 1048.0
+theme_override_font_sizes/font_size = 50
+text = "CREDITS"

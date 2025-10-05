@@ -42,8 +42,6 @@ func _on_button_pressed() -> void:
 	else:
 		speed = 5
 
-
-
 func _on_successive_abnormality_timeout() -> void:
 	is_abnormality = true
 	$abnormality.start()
